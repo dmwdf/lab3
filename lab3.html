@@ -1,0 +1,42 @@
+<div data-role="page" id="page1">
+<div data-role="content">     
+          <p><a href="#ButtonEventPage1" data-role="button">get weather</a></p> 	               
+     </div>
+
+<div data-role="content">     
+          <p><a href="#ButtonEventPage" data-role="button">Move to next page</a></p> 	               
+     </div>
+    <div> <img src="http://eswalls.com/wp-content/uploads/2014/01/Beautiful-Scenery-Widescreen.jpg" width = 250 height = 250></img></div>
+    <script type="text/javascript" src="//platform.twitter.com/widgets.js"></script>
+
+<p><a href="https://twitter.com/intent/tweet?in_reply_to=51113028241989632">Reply</a></p>
+
+<p><a href="https://twitter.com/intent/retweet?tweet_id=51113028241989632">Retweet</a></p>
+
+<p><a href="https://twitter.com/intent/favorite?tweet_id=51113028241989632">Favorite</a></p>
+
+<a href="https://twitter.com/share" class="twitter-share-button" data-lang="en">Tweet</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
+<a href="https://twitter.com/intent/tweet?screen_name=twitterapi" class="twitter-mention-button" data-lang="en">Tweet to @twitterapi</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
+</div>
+    <div data-role="page" id="ButtonEventPage1">
+     <div data-role="header">
+     	  <a data-rel="back" data-icon="home">Home</a>
+             <div class="weatherModule">
+<p class="currentConditions"></p>
+<div class="currentIcon"></div>
+                 Current temperature is 33.
+         </div></div></div>
+          <div data-role="page" id="ButtonEventPage">
+     <div data-role="header">
+     	  <a data-rel="back" data-icon="home">Home</a>
+          <h1>Page2</h1>
+         <input type="text" placeholder="something to store" id="inputString" />
+    <h1 onclick="clearStorage()">clear storage</h1>
+    <h1 onclick="saveStatusLocally()">click to store</h1>
+<h1 onclick="readStatus()">print</h1>
+         <div id="write"></div>
+    </div></div>
